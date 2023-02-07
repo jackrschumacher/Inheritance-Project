@@ -1,5 +1,8 @@
 public class laptop extends computer{
-	public laptop{
+	public String laptop(){
+		private int batteryLife;
+		private int screenSize;
+		private CPU;
 		
 	}
 }
