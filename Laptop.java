@@ -5,20 +5,25 @@ public class Laptop extends Computer{
 		private int batteryLife;
 		private int screenSize;
 		private String CPU;
-		private boolean batteryCharge = true;
+		private boolean batteryCharge = false;
 
 		public Status{
-			super(batteryLife, screenSize, CPU);
+			super(userName,userPrefferedOperatingSystem);
+			this.userName = "Jack";
+			this.userPrefferedOperatingSystem = "Mac";
 			this.screenSize = screenSize;
 			batteryLife = 5;
 		}
-		public void batteryCharge(){
+		public void batteryCharge(boolean isCharged, int batteryCharge){
 			// Precondition - Bettery Is charged or not
-			if(!isCharged){
-				isCharged = false;
+			if(isCharged == false){
 				batteryCharge = batteryCharge + 50;
 			}
+			else(isCharged){
+				batteryCharge = 100;
+			}
 		// Postcondition - Battery is charged if dead
+			return batteryCharge;
 		}
 		
 		

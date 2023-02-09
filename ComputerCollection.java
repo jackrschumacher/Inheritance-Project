@@ -7,6 +7,7 @@ public class ComputerCollection extends Computer{
 
 	public ComputerCollection(){
 		// Default Values
+			super();
 			maximumNumberOfComputers = 10;
 			this.TypeOfComputer= "PC";
 		}
@@ -25,7 +26,7 @@ public class ComputerCollection extends Computer{
 		else{
 			likesComputerBrand = "Other";
 		}
-		// Postocnidtion -> Return what type of computers they are likley to like
+		// Postconidtion -> Return what type of computers they are likley to like
 		return likesComputerBrand;
 	
 	}
