@@ -1,4 +1,4 @@
-public class ComputerCollection extends class computer{
+public class ComputerCollection extends Computer{
 	private int maximumNumberOfComputers;
 	private String TypeOfComputers;
 	public int class Inventory{
@@ -9,8 +9,6 @@ public class ComputerCollection extends class computer{
 		public inventory{
 			maximumNumberOfComputers = 10;
 			this.TypeOfComputer= "PC";
-			
-			
 		}
 	}
 }

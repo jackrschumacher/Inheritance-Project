@@ -1,4 +1,4 @@
-public class Laptop extends computer{
+public class Laptop extends Computer{
 	//Precondition : New Laptop is intialized in the main method
 	public String laptop(){
 		private int batteryLife;
